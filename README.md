@@ -16,3 +16,10 @@ Explorations in Machine Learning
    1. cp -R nbextensions/ \<jup_data_dir\>/
    1. cp -R extensions/   \<jup_data_dir\>/
    1. cp -R templates/    \<jup_data_dir\>/
+
+
+**Using pyspark with ipython notebook**
+
+```
+PYSPARK_PYTHON=python2 PYSPARK_DRIVER_PYTHON=ipython2 PYSPARK_DRIVER_PYTHON_OPTS="notebook" $SPARK_HOME/bin/pyspark
+```
