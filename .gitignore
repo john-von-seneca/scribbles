@@ -8,6 +8,7 @@ all-of-statistics/.ipynb_checkpoints
 __pycache__/
 *.py[cod]
 *.dat
+./**/**/metastore_db
 
 # C extensions
 *.so

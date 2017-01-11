@@ -1,0 +1,4 @@
+ warn: yes it is
+info: this is info 
+ error: this is error
+ warn: another warning
