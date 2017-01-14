@@ -1,0 +1,13 @@
+| Function |  Description |
+| seed |  Seed the random number generator |
+| permutation |  Return a random permutation of a sequence, or return a permuted range |
+| shuffle |  Randomly permute a sequence in place |
+| rand |  Draw samples from a uniform distribution |
+| randint |  Draw random integers from a given low-to-high range |
+| randn |  Draw samples from a normal distribution with mean 0 and standard deviation 1 (MATLAB-like interface) |
+| binomial |  Draw samples a binomial distribution |
+| normal |  Draw samples from a normal (Gaussian) distribution |
+| beta |  Draw samples from a beta distribution |
+| chisquare |  Draw samples from a chi-square distribution |
+| gamma |  Draw samples from a gamma distribution |
+| uniform |  Draw samples from a uniform [0, 1) distribution |
