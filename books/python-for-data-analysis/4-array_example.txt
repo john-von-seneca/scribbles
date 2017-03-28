@@ -1,0 +1,12 @@
+2D ndarray A matrix of data, passing optional row and column labels
+dict of arrays, lists, or tuples Each sequence becomes a column in the DataFrame. All sequences must be the same length.
+NumPy structured/record array Treated as the ¡°dict of arrays¡± case
+dict of Series Each value becomes a column. Indexes from each Series are unioned together to form the
+result¡¯s row index if no explicit index is passed.
+dict of dicts Each inner dict becomes a column. Keys are unioned to form the row index as in the ¡°dict of
+Series¡± case.
+list of dicts or Series Each item becomes a row in the DataFrame. Union of dict keys or Series indexes become the
+DataFrame¡¯s column labels
+List of lists or tuples Treated as the ¡°2D ndarray¡± case
+Another DataFrame The DataFrame¡¯s indexes are used unless different ones are passed
+NumPy MaskedArray Like the ¡°2D ndarray¡± case except masked values become NA/missing in the DataFrame result
