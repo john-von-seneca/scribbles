@@ -8,8 +8,10 @@ all-of-statistics/.ipynb_checkpoints
 __pycache__/
 *.py[cod]
 *.dat
-./**/**/metastore_db/*
+./**/metastore_db/
+./**/metastore_db/*
 books/learning-spark/metastore_db
+books/learning-spark/scala/metastore_db
 
 # C extensions
 *.so
