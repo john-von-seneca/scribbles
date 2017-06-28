@@ -1,0 +1,20 @@
+{
+  "lines.linewidth": 2.0,
+  "axes.edgecolor": "#bcbcbc",
+  "patch.linewidth": 0.5,
+  "legend.fancybox": true,
+  "legend.fontsize": 14,
+  "axes.facecolor": "#eeeeee",
+  "axes.labelsize": "large",
+  "axes.grid": true,
+  "patch.edgecolor": "#eeeeee",
+  "axes.titlesize": "x-large",
+  "svg.fonttype": "path",
+  "examples.directory": "",
+  "xtick.labelsize" : 13,
+  "ytick.labelsize" : 13,
+  "font.weight": "medium",
+  "axes.titlesize": 15,
+  "axes.labelweight": "medium",
+  "axes.labelsize": 14
+}
